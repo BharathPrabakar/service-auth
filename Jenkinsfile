@@ -8,7 +8,8 @@ pipeline {
   stages {
     stage('Clone') {
       steps {
-        git url: 'https://github.com/BharathPrabakar/service-auth.git'
+        git url: 'https://github.com/BharathPrabakar/service-auth.git', branch: 'main'
+
       }
     }
 
